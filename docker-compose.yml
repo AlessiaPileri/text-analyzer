@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  app:
+    image: node:alpine3.20
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
